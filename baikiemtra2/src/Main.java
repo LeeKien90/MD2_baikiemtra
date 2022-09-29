@@ -40,6 +40,7 @@ public class Main {
                         for (int j = 0; j < col; j++) {
                             if (i==j){
                                 tongCheo+=arr[i][j];
+                                System.out.printf("%d\t",arr[i][j]);
                             }
                         }
                     }System.out.println(" Tong gia tri cheo chinh la = "+tongCheo);
@@ -48,6 +49,7 @@ public class Main {
                         for (int j = 0; j < col; j++) {
                             if (i+j==col-1){
                                 tongCheophu+=arr[i][j];
+                                System.out.printf("%d\t",arr[i][j]);
                             }
                         }
                     }System.out.println(" Tong gia tri cheo phu la = "+tongCheophu);
